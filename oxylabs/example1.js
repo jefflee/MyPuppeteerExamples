@@ -8,5 +8,5 @@ const puppeteer = require('puppeteer');
     });
     await page.goto('https://oxylabs.io/');
     await page.screenshot({ path: 'oxylabs_1080.png' })
-    //await browser.close();
+    await browser.close();
 })();
